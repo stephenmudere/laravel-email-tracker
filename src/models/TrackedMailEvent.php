@@ -25,6 +25,7 @@ class TrackedMailEvent extends Model
     const GROUP_UNSUBSCRIBE_EVENT = 'mail.group_unsubscribe';
     const GROUP_RESUBSCRIBE_EVENT = 'mail.group_resubscribe';
 
+    protected $connection= 'email_tracker';
     /**
      * @var array
      */

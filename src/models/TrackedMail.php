@@ -12,7 +12,8 @@ use Illuminate\Database\Eloquent\Model;
  */
 class TrackedMail extends Model
 {
-
+    
+    protected $connection= 'email_tracker';
     /**
      * @var array
      */
@@ -23,7 +24,7 @@ class TrackedMail extends Model
      */
     protected $event_table;
 
-    /**
+    /** 
      * @var string
      */
     protected $event_table_foreign_key;

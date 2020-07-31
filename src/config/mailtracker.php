@@ -8,8 +8,8 @@ return [
      */
 
     'dont_keep_tracking_data' => [
-        'ip',
-        'email',
+        // 'ip',
+        // 'email',
     ],
 
     /*

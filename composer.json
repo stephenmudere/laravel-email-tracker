@@ -1,5 +1,5 @@
 {
-    "name": "michaelgrimshaw/laravel-email-tracker",
+    "name": "steve/laravel-email-tracker",
     "type": "library",
     "description": "A package to track sent mail and listen to webhook events",
     "keywords": [
